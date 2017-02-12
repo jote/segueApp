@@ -14,6 +14,9 @@
 		21E49B1F1E4F4BF300E3BFDE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21E49B1D1E4F4BF300E3BFDE /* LaunchScreen.storyboard */; };
 		21E49B2A1E4F4BF300E3BFDE /* segueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21E49B291E4F4BF300E3BFDE /* segueTests.swift */; };
 		21E49B351E4F4BF400E3BFDE /* segueUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21E49B341E4F4BF400E3BFDE /* segueUITests.swift */; };
+		21E49B431E4F4C7E00E3BFDE /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21E49B421E4F4C7E00E3BFDE /* SecondViewController.swift */; };
+		21E49B461E4F52E800E3BFDE /* FrendsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21E49B441E4F52E800E3BFDE /* FrendsTableViewCell.swift */; };
+		21E49B471E4F52E800E3BFDE /* FrendsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21E49B451E4F52E800E3BFDE /* FrendsTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		21E49B301E4F4BF300E3BFDE /* segueUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = segueUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		21E49B341E4F4BF400E3BFDE /* segueUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = segueUITests.swift; sourceTree = "<group>"; };
 		21E49B361E4F4BF400E3BFDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21E49B421E4F4C7E00E3BFDE /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		21E49B441E4F52E800E3BFDE /* FrendsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FrendsTableViewCell.swift; sourceTree = "<group>"; };
+		21E49B451E4F52E800E3BFDE /* FrendsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FrendsTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +109,9 @@
 				21E49B1B1E4F4BF300E3BFDE /* Assets.xcassets */,
 				21E49B1D1E4F4BF300E3BFDE /* LaunchScreen.storyboard */,
 				21E49B201E4F4BF300E3BFDE /* Info.plist */,
+				21E49B421E4F4C7E00E3BFDE /* SecondViewController.swift */,
+				21E49B441E4F52E800E3BFDE /* FrendsTableViewCell.swift */,
+				21E49B451E4F52E800E3BFDE /* FrendsTableViewCell.xib */,
 			);
 			path = segue;
 			sourceTree = "<group>";
@@ -189,7 +198,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0820;
 				LastUpgradeCheck = 0820;
-				ORGANIZATIONNAME = konomi_ban;
+				ORGANIZATIONNAME = jote;
 				TargetAttributes = {
 					21E49B101E4F4BF300E3BFDE = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -233,6 +242,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				21E49B1F1E4F4BF300E3BFDE /* LaunchScreen.storyboard in Resources */,
+				21E49B471E4F52E800E3BFDE /* FrendsTableViewCell.xib in Resources */,
 				21E49B1C1E4F4BF300E3BFDE /* Assets.xcassets in Resources */,
 				21E49B1A1E4F4BF300E3BFDE /* Main.storyboard in Resources */,
 			);
@@ -259,6 +269,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21E49B431E4F4C7E00E3BFDE /* SecondViewController.swift in Sources */,
+				21E49B461E4F52E800E3BFDE /* FrendsTableViewCell.swift in Sources */,
 				21E49B171E4F4BF300E3BFDE /* ViewController.swift in Sources */,
 				21E49B151E4F4BF300E3BFDE /* AppDelegate.swift in Sources */,
 			);
@@ -503,6 +515,7 @@
 				21E49B3B1E4F4BF400E3BFDE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		21E49B3C1E4F4BF400E3BFDE /* Build configuration list for PBXNativeTarget "segueTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +524,7 @@
 				21E49B3E1E4F4BF400E3BFDE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		21E49B3F1E4F4BF400E3BFDE /* Build configuration list for PBXNativeTarget "segueUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +533,7 @@
 				21E49B411E4F4BF400E3BFDE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
